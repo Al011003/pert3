@@ -1,0 +1,119 @@
+<html>
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@300&family=Product+Sans:wght@300&display=swap');
+
+        body {
+            background: url(bg.png);
+            background-color: #d8b89e;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Product Sans', sans-serif;
+        }
+        .card {
+            background-color: #1e3b4a;
+            color: #f9f9f9;
+            width: 450px;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(15, 15, 15, 0.2);
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            position: relative;
+            letter-spacing: 2px;
+            line-height: 1.2;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: scale(1.5);
+        }
+        .card h1 {
+            margin: 0;
+            font-size: 24px;
+            font-family: 'Product Sans Black', sans-serif;
+            font-weight: 300;
+        }
+        .card h2 {
+            margin: 0;
+            font-size: 14px;
+            margin-bottom: 20px;
+            font-family: 'Cinzel', serif;
+            font-weight: 300;
+            letter-spacing: 12px;
+        }
+        .card .info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            margin-left: 20px;
+        }
+        .card .info i {
+            margin-right: 15px;
+        }
+        .card .info p {
+            margin: 0;
+            font-size: 12px;
+        }
+        .card .address {
+            font-size: 6pt;
+            margin-top: 20px;
+            line-height: 0.2;
+            letter-spacing: 1px;
+        }
+        .card .logo {
+            position: absolute;
+            bottom: 50px;
+            right: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        a {
+            color: #f9f9f9;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="card">
+        <h1>AL FARHAD</h1>
+        <h2>MAULANA</h2>
+        <div class="info">
+            <i class="fas fa-id-badge"></i>
+            <p>1202224037</p>
+        </div>
+        <div class="info">
+            <i class="fas fa-phone"></i>
+            <p><a href="https://wa.me/082384965056" target="blank">+62-823-8496-5056</a></p>
+        </div>
+        <div class="info">
+            <i class="fas fa-envelope"></i>
+            <p><a href="mailto:alfarhadmaulana@gmail.com">alfarhadmaulana@gmail.com</a></p>
+        </div>
+        <div class="info">
+            <i class="fas fa-university"></i>
+            <p><a href="https://jakarta.telkomuniversity.ac.id/" target="_blank">Telkom University</a></p>
+        </div>
+        <div class="info">
+            <i class="fas fa-graduation-cap"></i>
+            <p><a href="https://smb.telkomuniversity.ac.id/program/s1-teknologi-informasi-kampus-jakarta/"" target="_blank">S1 Teknologi Informasi</a></p>
+        </div>
+        <div class="address">
+            <p>MAMPANG PRAPATAN, KOTA JAKARTA SELATAN,</p>
+            <p>DKI JAKARTA, INDONESIA.</p>
+            <p>Jalan Kemang Utara IX No. 17 RT.3/RW.4, Bangka.</p>
+            <p>12710</p>
+        </div>
+        <div class="logo"><img src="logo al.png" width="80" ></div>
+    </div>
+</body>
+</html>
